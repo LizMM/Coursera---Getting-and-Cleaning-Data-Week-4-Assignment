@@ -27,4 +27,4 @@ A code book that describes the variables, the data, and transformations used to 
 
 ## TidyData
 
-A text file containing the tidied data set.  In order to view the data in R please use the following script: 
+A text file containing the tidied data set.  In order to view the data in R please use the following script: 'read.table("TidyData.txt", header=TRUE)'
