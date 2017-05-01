@@ -38,7 +38,7 @@ Once the raw data sets were downloaded and loaded into tables, the following tra
 # Generated fields
 SubjectID (integer) - ID of subject performing the activity. Ranges from 1-30 (integer)
 
-Activity (factor)- Activity the subject is performing.  6 possible value: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. 
+Activity (factor)- Activity the subject is performing.  6 possible values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. 
 
 # Measurement variables
 Each variable is the mean value of all measurements recorded for that variable for each subject and activity. The values are bounded between -1 and 1.  
