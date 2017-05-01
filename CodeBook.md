@@ -20,11 +20,17 @@ Once the raw data sets were downloaded and loaded into tables, the following tra
 
 1 - The training and test data sets were merged into one data set (source files = X_train and X_test).
 2 -  The activity reference tables for the training and test data sets were merged into a single table (source files = y_train and y_test).
+
 3 - The subject reference tables for the training and test data sets were merged into a single table (source files = subject_train and subject_test).
+
 4 - Descriptive labels detailing the measurement type were added to the column variables in the merged data set using the features file.  The measurements are now clearly labelled in the datset rather than the orginial 'V_' descriptors used.  
+
 5 - The activity and subject reference tables created in transformations 2 and 3 were used to add an activty ID and subject ID to each row of the merged data set.  The measurements were now linked to one of the 6 activities and one of the 30 subjects.
+
 6 - Only measurements relating to mean and standard deviation calculations were extracted from the merged data set. These were identified where the measurement name had either mean() or std() contained in the description. The remaining columns were excluded.
+
 7 - The activty IDs were replaced with the appropriate descriptors e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 8 -A 'wide' tidy data set was created where there is a single row for each activty and subject combination and a single column for  each selected measurement average (mean) value.  The data set is ordered by subject in ascending order.  
 
 ## Data Set Variables
