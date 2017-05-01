@@ -1,13 +1,13 @@
 # Coursera---Getting-and-Cleaning-Data-Week-4-Assignment
 Submissions for the Week 4 Assignment of the Getting and Cleaning Course
 
-This repository contains my submitted files for the Week 4 Assignment for the Coursera Getting and Cleaning Data Course and contains the following files:
+This repository contains my submitted files for the Week 4 Assignment of the Coursera Getting and Cleaning Data Course.  It contains the following files:
 
 ### R Script: run_analysis.R
 
-The prerequistites for running this script are the working directory has already been set.
+The prerequistite for running this script is that the working directory has already been set.
 
-Executing the run_analysis.R script completes the following:
+Executing the run_analysis.R script completes the following actions:
 - Downloads and unzips the source data files into the set working directory.
 - Creates vectors containing the features and activity label information which are used to add descriptors later in the script. 
 - Reads into seperate tables the training set, the associated activity IDs and  subject IDs.
@@ -18,8 +18,8 @@ Executing the run_analysis.R script completes the following:
 - Ads in 2 columns to the merged dataset so an activity ID and subject ID are assigned to each row.
 - Extracts only the measurements on the mean and standard deviation for each measurement. The measurements have been selected where suffixed with mean() or std() which are the mean and standard deivation measurements for the signals.  
 - Uses descriptive activity names to name the activities in the data set and ensures the dataset columns are ordered correctly with the subject ID and activity description in the first two columns.
-- Creates tidy data set called `TidyData` which contains the average of each variable for each activity and each subject.  The data set is ordered by subject ID. 
-- Creates a text file of `TidyData` so it can be uploaded.  
+- Creates 'wide' tidy data set called `TidyData` which contains a single row for each activity and subject combination and a single column for  each variable mean value.  The data set is ordered by subject ID. 
+- Creates a text file of `TidyData` so it can be uploaded onto GitHub.  
 
 ## CodeBook.md
 
